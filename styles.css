@@ -11,8 +11,99 @@ DARK BLUE: #1D3557
 body {
     margin: 0;
     text-align: center;
+    color: #1D3557;
+    font-family: system-ui;
 }
 
-img {
+h3 {
+    font-size: 1.25em;
+}
+
+.item img {
     width: 100px;
+}
+
+
+.banner {
+    color: #F1FAEE;
+    background-image: url(images/torshov.jpg);
+    background-size: cover;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-item {
+    
+}
+
+.title {
+    background-color: #457B9D;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.subtitle {
+    background-color:  #1D3557;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 375px;
+    font-size: 1.1em
+}
+
+.top3 {
+    margin-top: -20px;
+    background-color: #F1FAEE;
+}
+
+.top3 h3 {
+    padding: 20px;
+}
+
+.top3-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item {
+    margin: 0px 20px 0px 20px;
+    max-width: 200px;
+}
+
+.item img {
+    border-radius: 50%
+}
+
+.guide {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    background-color: #A8DADC;
+    border-bottom: 5px solid #457B9D;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    max-width: 350px;
+}
+
+.guide-items{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 10px;
+}
+
+.guide-item{
+    max-width: 50%;
+    padding: 5px;
+}
+
+.guide-item img{
+    border-radius: 5px;
+    max-width: 100%;
 }
